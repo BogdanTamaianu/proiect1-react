@@ -1,8 +1,69 @@
-/* Daca vrem ca aplicatia sa ocupe intreg viewport-ul. */
 .app {
-  min-height: 100vh;
+  /* vrem doar ca app sa ocupe toata pagina */
+  height: auto;
 }
 
 .app h1 {
   margin-top: 0;
+}
+
+.font-link {
+  font-family: 'Ubuntu', sans-serif, cursive;
+}
+
+
+img {
+  width: 60px;
+  height: 60px;
+}
+
+.choose {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.color, .show-buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+
+.change-color {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#text-color, #background-color {
+  height: 2rem;
+  width: 6rem;
+}
+
+label {
+  font-size: 2vh;
+  font-style: oblique;
+}
+
+@media only screen and (max-width: 992px) {
+  .color {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+ .change-color label {
+    width: 8rem;
+    text-align: center;
+  }
+
+ .choose {
+   padding-top: 3rem;
+ }
+
+ .show-buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+}
 }
