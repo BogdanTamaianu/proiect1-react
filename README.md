@@ -6,7 +6,7 @@
 
 #### 2. `cd react-admin-panel`
 
-#### 3. `npm install'
+#### 3. `npm install`
 
 #### 4. `npm start`
 
